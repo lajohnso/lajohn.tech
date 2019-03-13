@@ -14,33 +14,48 @@ class App extends Component {
     return (
 
       <div className="App">
-      <nav className="grey">
-        <div className="nav-wrapper grey">
-          <img id="logo" className="left brand-logo"src={laJohnLogo}></img>
-          <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="">About</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Projects</a></li>
-          </ul>
-        </div>
-      </nav>
 
-        <header className="App-header">
+          <nav id="nav" className="grey">
+            <div className="nav-wrapper grey">
+              <img id="logo" className="left brand-logo"src={laJohnLogo}></img>
+              <ul id="nav-mobile" className="right "> {/*enter when added alternative menu: hide-on-med-and-down*/}
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+              </ul>
+            </div>
+          </nav>
 
-          <p>
-          Welcome to my portfolio
-          </p>
-          <a target="_blank" href="https://www.linkedin.com/in/lars-august-johnson-a9245b180/"
-           className="waves-effect wawes blue btn target=_blank">
-           Get in touch
-          </a>
-          <div className="expand">
-            <i className="medium material-icons">expand_more</i>
+          <div id="container">
+            <div className="landingPage">
+              <div className="contentL">
+                <p>
+                  Welcome to my portfolio
+                </p>
+                <a target="_blank" href="https://www.linkedin.com/in/lars-august-johnson-a9245b180/"
+                  className="waves-effect wawes blue btn target=_blank">
+                  Get in touch
+                </a>
+              </div>
+              <div id="expand" className="expand">
+                <i id="arrow" className="medium material-icons"><a href="#about"> expand_more</a></i>
+              </div>
+            </div>
+
+            <div id="about">
+              <h1>About</h1>
+            </div>
+
+            <div id="skills">
+              <h1>Skills</h1>
+            </div>
+
+            <div id="projects">
+              <h1>Projects</h1>
+            </div>
           </div>
 
-
-        </header>
-
+        {/*
         <div className="parallax-container">
           <div className="parallax">
             <img src={background1} className="" />
@@ -62,22 +77,22 @@ class App extends Component {
         <br />
         <br />
 
-        {/* lager en rad av 3 er 4/12 store */}
+
         <div class="row">
           <div class="col s4">
             <img src={fiskinfo} className=""/>
             <br />
             <i class="material-icons">visibility_off</i>
           </div>
-
           <div class="col s4">
           heihopp
           </div>
-
           <div class="col s4">
           heihopp
           </div>
         </div>
+        */}
+            {/* lager en rad av 3 er 4/12 store */}
       </div>
     );
   }
