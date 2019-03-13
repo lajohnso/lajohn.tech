@@ -9,7 +9,8 @@ h3{
 }
 p {
   margin:0;
-  font-size: calc(5px + 2vmin);
+  font-size: calc(2px + 2vmin);
+
 }
 .nav{
   min-height: 8.5vh;
@@ -40,7 +41,7 @@ p {
 #up a{
   right:5vh;
   bottom:5vh;
-  color:white;
+  color:black;
   /*position:fixed;*/
 }
 
@@ -67,51 +68,78 @@ nav{
   cursor: pointer;
 }
 
-.float{
-  float:right;
-}
 
 a{
   color:inherit;
 }
+.row{
+  margin:0;
+  padding:0;
+}
 
 #about{
   margin:0;
-  padding-top:5vh;
+  padding: 0;
   height: 100vh;
-  background: red;
-}
-#title{
-  padding-bottom: 20vh;
+  background: white;
 }
 
 #skills{
+  background: #282c34;
   margin:0;
-  padding-top:30vh;
   height: 100vh;
-  background: blue;
 }
 
 #projects{
   margin:0;
-  padding-top:30vh;
   height: 100vh;
-  background: orange;
+  background: white;
 }
 
 #quote{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: didot;
   marging:0;
   padding:0;
+    font-style:oblique;
 }
 
-#quoter{
-  marging-top:0;
-  padding:0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+#titles{
+    font-size: calc(10px + 2vmin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 5vh;
+    color: inherit;
+}
+#titles2{
+    font-size: calc(10px + 2vmin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 5vh;
+    color: white;
 }
 
+#pbilde{
+  max-width: 25vh;
+  max-height: 25vh;
+  margin-top: 10vh;
+  margin-right: 10vh;
+}
+
+#abouttxt{
+  float: left !important;
+  text-align: left;
+  padding-bottom: 2vh;
+}
+
+#cards{
+  margin-left: 45vh;
+}
 /*disable all highlighting on page*/
 * {
     -webkit-touch-callout:none;
