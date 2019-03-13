@@ -7,6 +7,22 @@ import background2 from './assets/background2.jpg';
 import background3 from './assets/background3.jpg';
 import laJohnLogo from './assets/LaJohnLogo.png';
 import pbilde from './assets/P.Bilde.jpg';
+import angular from './assets/angular.svg';
+import python from './assets/python.jpg';
+import react from './assets/react_logo.png';
+import db from './assets/db.png';
+import js from './assets/js.png';
+import sql from './assets/sql.png';
+import html5 from './assets/html5.png';
+import css3 from './assets/css.svg';
+import scrum from './assets/scrum.png';
+import asana from './assets/asana.png';
+import github from './assets/github.svg';
+import ol from './assets/OL.png';
+import git from './assets/git-logo.png';
+import wp from './assets/wp.png';
+
+
 import './App.css';
 
 class App extends Component {
@@ -59,7 +75,7 @@ class App extends Component {
         {/* lager en rad av 3 er 4/12 store */}
         <div id="about" className="row">
             <div class="col s12">
-              <h3 id="titles">#About Lars-August</h3>
+              <h3 id="titles">About Lars-August</h3>
             </div>
             <div id="pbilde" className="col s2 offset-s1">
                 <img src={pbilde} className="circle responsive-img"/>
@@ -73,63 +89,79 @@ class App extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dui at nunc lacinia condimentum eget ut risus. Mauris egestas dignissim rutrum. Duis sit amet suscipit turpis. Fusce dui ante, semper nec purus ac, varius rhoncus enim. In in pellentesque arcu, sit amet luctus dolor. Mauris at eleifend nisl. Integer eget condimentum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
                 Integer tempor orci est, eu mollis sem egestas nec. Proin eu scelerisque arcu. Donec vitae lobortis massa, id efficitur neque. Sed bibendum est enim, vel luctus sapien faucibus vel. Sed pharetra, dolor a viverra consequat, arcu mauris molestie mauris, sed placerat nibh odio ac nisi. Suspendisse nulla odio, efficitur eleifend facilisis consequat, accumsan ac risus. Donec tempor et felis vitae efficitur. Donec et mollis sapien. Aenean consequat ornare enim sed sodales. Nulla   tempor velit nibh, a tempus dui maximus sed. Nulla eget vestibulum mi, eu laoreet ligula.</p>
               <br />
-
          </div>
-
-
-
       </div>
-
-
-
 
         {/* lager en rad av 3 er 4/12 store */}
         <div id="skills" class="row">
-        <div  class="col s12">
-          <h3 id="titles2">#Skills Lars-August</h3>
-        </div>
-        <div id="cards" class="col s12 m2">
-          <div class="card-panel white">
-            <span class="black-text">I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-            </span>
+          <div  class="col s12">
+            <h3 id="titles2">My Skills</h3>
           </div>
-        </div>
-        <div class="col s12 m2">
-          <div class="card-panel white">
-            <span class="black-text">I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I rI am a very simple card. I am good at containing small bits of information.
-            I am convenient because I equire little markup to use effectively. I am similar to what is called a panel in other frameworks.
-            </span>
+          <div id="cards" class="col s12 m2">
+            <div class="card-panel white">
+              <ul>
+                <li id="title_box">< img id="db" src={db}className=""/>Back-End</li>
+                <li id="bilde">< img src={python}className="responsive-img"/></li>
+                <li id="bilde">< img src={sql}className="responsive-img"/></li>
+                <li id="bilde">< img src={angular}className="responsive-img"/></li>
+                <li id="bilde">< img src={angular}className="responsive-img"/></li>
+
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col s12 m2">
-          <div class="card-panel white">
-            <span class="black-text">I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-            </span>
+          <div  class="col s12 m2">
+            <div class="card-panel white">
+              <ul>
+                <li id="title_box"><i className="small material-icons">code</i>Front-End</li>
+                <li id="bilde">< img src={angular}className="responsive-img"/></li>
+                <li id="bilde">< img src={react}className="responsive-img"/></li>
+                <li id="bilde">< img src={html5}className="responsive-img"/></li>
+                <li id="bilde">< img src={css3}className="responsive-img"/></li>
+                <li id="bilde">< img src={js}className="responsive-img"/></li>
+                <li id="bilde">< img src={wp}className="responsive-img"/></li>
+              </ul>
+            </div>
           </div>
-        </div>
+          <div  class="col s12 m2">
+            <div class="card-panel white">
+              <ul>
+                <li id="title_box"><i className="small material-icons">people</i>Project management</li>
+                <li id="bilde">< img src={asana}className="responsive-img"/></li>
+                <li id="bilde">< img src={scrum}className="responsive-img"/></li>
+                <li id="bilde">< img src={github}className="responsive-img"/></li>
+                <li id="bilde">< img src={git}className="responsive-img"/></li>
+
+              </ul>
+            </div>
+          </div>
         </div>
 
-
-        {/* lager en rad av 3 er 4/12 store */}
-        <div id="projects" className="row">
-          <div class="col s4">
-            <img src={fiskinfo} className=""/>
-            <br />
-            <i class="material-icons">visibility_off</i>
+          {/* lager en rad av 3 er 4/12 store */}
+          <div id="projects" className="row">
+            <div class="col s4">
+              <img src={fiskinfo} className=""/>
+              <br />
+              <i class="material-icons">visibility_off</i>
+            </div>
+            <div class="col s4">
+              heihopp
+            </div>
+            <div class="col s4">
+              heihopp
+            </div>
           </div>
-          <div class="col s4">
-            heihopp
-          </div>
-          <div class="col s4">
-            heihopp
-          </div>
+          <div className="col12">
+            <i id="up" className="medium material-icons"><a href="#logo">expand_less</a></i>
         </div>
-        <div className="col12">
-          <i id="up" className="medium material-icons"><a href="#logo">expand_less</a></i>
-        </div>
+        
+        <footer className="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+              © 2019 Copyright reserved Lars-August Johnson
+              <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer>
 
 
 {/*app closer*/}

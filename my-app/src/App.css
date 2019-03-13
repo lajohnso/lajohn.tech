@@ -44,7 +44,9 @@ p {
   color:black;
   /*position:fixed;*/
 }
-
+.page-footer{
+  background-color: grey;
+}
 nav{
   text-align: left;
   height:8.5vh;
@@ -138,8 +140,24 @@ a{
 }
 
 #cards{
-  margin-left: 45vh;
+  margin-left: 50vh;
 }
+#bilde{
+  max-height: 6vh;
+  max-width: 6vh;
+  margin-top: 4vh;
+  margin-left: 8vh;
+}
+#db{
+  max-width: 5vh;
+  max-height:5vh;
+  margin-right: 2vh;
+}
+#title_box{
+  font-size:3vh;
+  margin-bottom: 2vh;
+}
+
 /*disable all highlighting on page*/
 * {
     -webkit-touch-callout:none;
