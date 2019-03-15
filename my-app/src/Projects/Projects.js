@@ -4,7 +4,7 @@ import './Projects.css';
 
 
 import fiskinfo from './FiskInfo.gif';
-import todo from './todo.png';
+import todo from '../images/todo.png';
 import github from './github.svg';
 
 
@@ -12,17 +12,13 @@ export default class Projetcs extends Component {
   render() {
     return (
 
-
       <div className="Projects">
         <div id="projects" className="row">
           <br />
           <h3 id="black">Previous Projects</h3>
-          <br />
-          <br />
-          <br />
           <div class="col s12 ">
           </div>
-          <div class="row">
+          <div id="aboutProject" class="row">
             <div class="col s6 offset-s1">
               <p id="p_title">FiskInfo - SINTEF Digital</p>
               <img id="FiskInfo"
@@ -30,7 +26,7 @@ export default class Projetcs extends Component {
                 className="project_img"
               />
               <br />
-              <i id="visability" class="material-icons">visibility_off</i> Source code protected NDA
+              <i id="visability" class="material-icons">visibility_off</i> Source code protected by NDA
 
 
             </div>
@@ -43,7 +39,7 @@ export default class Projetcs extends Component {
               </div>
             </div>
           </div>
-          </div>
+
 
 
           <div class="col s12 ">
@@ -79,8 +75,9 @@ export default class Projetcs extends Component {
               </div>
             </div>
           </div>
+        </div>
 
-        <div className="col12">
+        <div id= "upwards" className="col1 offset s11">
           <i id="up" className="medium material-icons"><a href="#logo">expand_less</a></i>
         </div>
       </div>

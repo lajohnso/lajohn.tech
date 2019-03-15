@@ -1,7 +1,7 @@
 #projects{
   margin:0;
-  height: 100vh;
-  background: white;
+  height: 160vh;
+  background-color: white !important;
 }
 
 #p_title{
@@ -16,6 +16,14 @@
   margin-top: 2vh;
 }
 
+#aboutProject{
+  margin-bottom: 10vh;
+}
+
+#upwards{
+  background:white;
+  padding-bottom: 15vh;
+}
 #tiny{
   width: 5vh;
   margin-top: 3vh;
@@ -71,14 +79,17 @@ p {
   cursor: pointer;
 
 }
-#up a{
-  right:5vh;
-  bottom:5vh;
+#up {
+  bottom:10vh;
+  float: right;
   color:black;
   /*position:fixed;*/
 }
 .page-footer{
   background-color: grey;
+  height: 7vh;
+  margin:0;
+  padding:0;
 }
 nav{
   text-align: left;
@@ -131,7 +142,7 @@ a{
   font-family: didot;
   marging:0;
   padding:0;
-    font-style:oblique;
+  font-style:oblique;
 }
 
 #titles{
