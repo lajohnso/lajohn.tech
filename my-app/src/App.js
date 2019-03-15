@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import M from 'materialize-css';
 
 import background1 from './assets/background1.jpg';
-import fiskinfo from './assets/FiskInfo.gif';
 import background2 from './assets/background2.jpg';
 import background3 from './assets/background3.jpg';
 import laJohnLogo from './assets/LaJohnLogo.png';
@@ -22,12 +21,10 @@ import ol from './assets/OL.png';
 import git from './assets/git-logo.png';
 import wp from './assets/wp.png';
 
-
+import Projects from './Projects/Projects'
 import './App.css';
 
 class App extends Component {
-
-
   render() {
     return (
       <div className="App">
@@ -136,24 +133,7 @@ class App extends Component {
           </div>
         </div>
 
-          {/* lager en rad av 3 er 4/12 store */}
-          <div id="projects" className="row">
-            <div class="col s4">
-              <img src={fiskinfo} className=""/>
-              <br />
-              <i class="material-icons">visibility_off</i>
-            </div>
-            <div class="col s4">
-              heihopp
-            </div>
-            <div class="col s4">
-              heihopp
-            </div>
-          </div>
-          <div className="col12">
-            <i id="up" className="medium material-icons"><a href="#logo">expand_less</a></i>
-        </div>
-        
+        <Projects />
         <footer className="page-footer">
           <div class="footer-copyright">
             <div class="container">

@@ -1,11 +1,36 @@
+#projects{
+  margin:0;
+  height: 100vh;
+  background: white;
+}
+
+#p_title{
+  margin-top: 5vh;
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+#FiskInfo{
+  width: 70vh;
+}
+
+#visability{
+   vertical-align: top;
+}
+
+#strip{
+  margin:0;
+  padding:0;
+}
+
 .App {
   text-align: center;
 }
 html {
   scroll-behavior: smooth;
 }
-h3{
-  color: white;
+#black{
+  color: black !important;
 }
 p {
   margin:0;
@@ -91,6 +116,8 @@ a{
   margin:0;
   height: 100vh;
 }
+
+
 
 #quote{
   font-family: didot;
