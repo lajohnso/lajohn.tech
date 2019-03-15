@@ -82,14 +82,14 @@ a{
 #about{
   margin:0;
   padding: 0;
-  height: 100vh;
+  height: 120vh;
   background: white;
 }
 
 #skills{
   background: #282c34;
   margin:0;
-  height: 100vh;
+  height: 140vh;
 }
 
 #quote{

@@ -5,13 +5,21 @@
 }
 
 #p_title{
-  margin-top: 5vh;
   font-weight: bold;
   font-size: 3vh;
 }
 
 #FiskInfo{
   width: 70vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+#tiny{
+  width: 5vh;
+  margin-top: 3vh;
+  height:5vh;
 }
 
 #visability{

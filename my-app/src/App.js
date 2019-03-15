@@ -107,7 +107,7 @@ class App extends Component {
             </div>
           </div>
           <div  class="col s12 m2">
-            <div class="card-panel white">
+            <div id="card" class="card-panel white">
               <ul>
                 <li id="title_box"><i className="small material-icons">code</i>Front-End</li>
                 <li id="bilde">< img src={angular}className="responsive-img"/></li>
