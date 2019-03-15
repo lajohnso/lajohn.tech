@@ -3,9 +3,9 @@ import M from 'materialize-css';
 import './Projects.css';
 
 
-import fiskinfo from './FiskInfo.gif';
+import fiskinfo from '../images/FiskInfo.gif';
 import todo from '../images/todo.png';
-import github from './github.svg';
+import github from '../images/github.svg';
 
 
 export default class Projetcs extends Component {

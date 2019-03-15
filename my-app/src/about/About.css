@@ -1,0 +1,12 @@
+#abouttxt{
+  float: left !important;
+  text-align: left;
+  padding-bottom: 2vh;
+}
+
+#about{
+  margin:0;
+  padding: 0;
+  height: 120vh;
+  background: white;
+}

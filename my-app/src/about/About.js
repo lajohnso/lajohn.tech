@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import M from 'materialize-css';
 import pbilde from '../images/P.Bilde.jpg';
-
+import "./About.css"
 
 
 export default class Projetcs extends Component {

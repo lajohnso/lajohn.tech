@@ -10,7 +10,6 @@ h3{
 p {
   margin:0;
   font-size: calc(2px + 2vmin);
-
 }
 .nav{
   min-height: 8.5vh;
@@ -36,7 +35,6 @@ p {
   height: 8.5vh;
   text-align:left;
   cursor: pointer;
-
 }
 #up a{
   right:5vh;
@@ -44,9 +42,7 @@ p {
   color:black;
   /*position:fixed;*/
 }
-.page-footer{
-  background-color: grey;
-}
+
 nav{
   text-align: left;
   height:8.5vh;
@@ -79,12 +75,6 @@ a{
   padding:0;
 }
 
-#about{
-  margin:0;
-  padding: 0;
-  height: 120vh;
-  background: white;
-}
 
 #skills{
   background: #282c34;
@@ -96,7 +86,7 @@ a{
   font-family: didot;
   marging:0;
   padding:0;
-    font-style:oblique;
+  font-style:oblique;
 }
 
 #titles{
