@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,7 +7,23 @@ h3{
 }
 p {
   margin:0;
-  font-size: calc(5px + 2vmin);
+  font-size: calc(2px + 2vmin);
+}
+
+a{
+  color:inherit;
+}
+
+nav{
+  text-align: left;
+  height:10vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
 }
 .nav{
   min-height: 8.5vh;
@@ -31,26 +45,9 @@ p {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-#logo{
-  height: 8.5vh;
-  text-align:left;
-  cursor: pointer;
 
-}
-#up a{
-  right:5vh;
-  bottom:5vh;
-  color:white;
-  /*position:fixed;*/
-}
 
-nav{
-  text-align: left;
-  height:8.5vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 .App-link {
   color: #61dafb;
 }
@@ -67,50 +64,68 @@ nav{
   cursor: pointer;
 }
 
-.float{
-  float:right;
-}
 
-a{
-  color:inherit;
-}
-
-#about{
+.page-footer{
+  background-color: grey;
+  height: 7vh;
   margin:0;
-  padding-top:5vh;
-  height: 100vh;
-  background: red;
-}
-#title{
-  padding-bottom: 20vh;
+  padding:0;
 }
 
-#skills{
+
+
+.row{
   margin:0;
-  padding-top:30vh;
-  height: 100vh;
-  background: blue;
+  padding:0;
 }
-
-#projects{
-  margin:0;
-  padding-top:30vh;
-  height: 100vh;
-  background: orange;
+#logo{
+  height: 8.5vh;
+  text-align:left;
+  cursor: pointer;
 }
-
+#up a{
+  right:5vh;
+  bottom:5vh;
+  color:black;
+  /*position:fixed;*/
+}
 #quote{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: didot;
   marging:0;
   padding:0;
+  font-style:oblique;
 }
 
-#quoter{
-  marging-top:0;
-  padding:0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+#titles{
+    font-size: calc(10px + 2vmin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 5vh;
+    color: inherit;
 }
+#titles2{
+    font-size: calc(10px + 2vmin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 5vh;
+    color: white;
+}
+
+
+
+#abouttxt{
+  float: left !important;
+  text-align: left;
+  padding-bottom: 2vh;
+}
+
+
 
 /*disable all highlighting on page*/
 * {

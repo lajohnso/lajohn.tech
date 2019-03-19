@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import M from 'materialize-css';
-import background1 from './assets/background1.jpg';
-import fiskinfo from './assets/FiskInfo.gif';
-import background2 from './assets/background2.jpg';
-import background3 from './assets/background3.jpg';
-import laJohnLogo from './assets/LaJohnLogo.png';
+import Projects from './projects/Projects'
+import About from './about/About'
+import Skills from './skills/Skills'
+import Footer from './footer/Footer'
 
-
+import laJohnLogo from './images/LaJohnLogo.png';
 import './App.css';
 
 class App extends Component {
 
-
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
 
@@ -38,12 +39,13 @@ class App extends Component {
           Welcome to my portfolio
           </h3>
           <p id="quote">
-          “Walking on water and developing software from a specification are easy if both are frozen.”
+            “Walking on water and developing software from a specification
           </p>
-          <p id="quoter">
-          ―Edward V. Berard
+          <p id="quote">
+            are easy if both are frozen.” ―Edward V. Berard
           </p>
-              <br />
+          <br/>
+          <br/>
           <a target="_blank"
             href="https://www.linkedin.com/in/lars-august-johnson-a9245b180/"
             className="waves-effect wawes blue btn target=_blank">
@@ -56,61 +58,11 @@ class App extends Component {
           </div>
         </div>
 
-        {/* lager en rad av 3 er 4/12 store */}
-        <div id="about" className="row">
-          <div className="row">
-            <div class="col s12">
-              <h3 id="title">#About Lars-August</h3>
-            </div>
-          </div>
-          <div class="col s4">
-            <img src={fiskinfo} className=""/>
-            <br />
-            <i class="material-icons">visibility_off</i>
-            <p>source private</p>
-          </div>
-          <div class="col s4">
-            heihopp
-          </div>
-          <div class="col s4">
-            heihopp
-          </div>
-        </div>
-        {/* lager en rad av 3 er 4/12 store */}
-        <div id="skills" class="row">
-          <div class="col s4">
-            <img src={fiskinfo} className=""/>
-            <br />
-            <i class="material-icons">visibility_off</i>
-          </div>
-          <div class="col s4">
-            heihopp
-          </div>
-          <div class="col s4">
-            heihopp
-          </div>
-        </div>
-        {/* lager en rad av 3 er 4/12 store */}
-        <div id="projects" className="row">
-          <div class="col s4">
-            <img src={fiskinfo} className=""/>
-            <br />
-            <i class="material-icons">visibility_off</i>
-          </div>
-          <div class="col s4">
-            heihopp
-          </div>
-          <div class="col s4">
-            heihopp
-          </div>
-        </div>
-        <div className="col12">
-          <i id="up" className="medium material-icons"><a href="#logo">expand_less</a></i>
-        </div>
+        <About />
 
-
-
-
+        <Skills />
+        <Projects />
+        <Footer />
 
 
 {/*app closer*/}

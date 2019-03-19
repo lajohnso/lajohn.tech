@@ -1,0 +1,86 @@
+#projects{
+  margin-bottom:0;
+  height: 305vh;
+  background-color: white !important;
+}
+
+#p_title{
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+#FiskInfo{
+  width: 70vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+#aboutProject{
+  margin-bottom: 10vh;
+}
+
+#upwards{
+  background:white;
+  padding-bottom: 15vh;
+}
+#tiny{
+  width: 5vh;
+  margin-top: 3vh;
+  height:5vh;
+}
+
+#visability{
+   vertical-align: top;
+}
+
+#strip{
+  margin:0;
+  padding:0;
+}
+
+
+#black{
+  color: black !important;
+  margin-bottom:10vh;
+}
+
+
+
+#up {
+  bottom:10vh;
+  float: right;
+  color:black;
+  /*position:fixed;*/
+}
+
+
+
+
+#quote{
+  font-family: didot;
+  marging:0;
+  padding:0;
+  font-style:oblique;
+}
+
+#titles{
+    font-size: calc(10px + 2vmin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 5vh;
+    color: inherit;
+}
+#titles2{
+    font-size: calc(10px + 2vmin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 5vh;
+    color: white;
+}
