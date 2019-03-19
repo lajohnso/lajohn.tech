@@ -9,4 +9,18 @@
   padding: 0;
   height: 120vh;
   background: white;
+
+  clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 calc(100% - 5vw)
+    );
+}
+
+#pbilde{
+  max-width: 25vh;
+  max-height: 25vh;
+  margin-top: 10vh;
+  margin-right: 10vh;
 }

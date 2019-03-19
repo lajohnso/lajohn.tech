@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,6 +8,22 @@ h3{
 p {
   margin:0;
   font-size: calc(2px + 2vmin);
+}
+
+a{
+  color:inherit;
+}
+
+nav{
+  text-align: left;
+  height:10vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
 }
 .nav{
   min-height: 8.5vh;
@@ -31,25 +45,9 @@ p {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-#logo{
-  height: 8.5vh;
-  text-align:left;
-  cursor: pointer;
-}
-#up a{
-  right:5vh;
-  bottom:5vh;
-  color:black;
-  /*position:fixed;*/
-}
 
-nav{
-  text-align: left;
-  height:8.5vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
+
+
 .App-link {
   color: #61dafb;
 }
@@ -67,21 +65,30 @@ nav{
 }
 
 
-a{
-  color:inherit;
-}
-.row{
+.page-footer{
+  background-color: grey;
+  height: 7vh;
   margin:0;
   padding:0;
 }
 
 
-#skills{
-  background: #282c34;
-  margin:0;
-  height: 140vh;
-}
 
+.row{
+  margin:0;
+  padding:0;
+}
+#logo{
+  height: 8.5vh;
+  text-align:left;
+  cursor: pointer;
+}
+#up a{
+  right:5vh;
+  bottom:5vh;
+  color:black;
+  /*position:fixed;*/
+}
 #quote{
   font-family: didot;
   marging:0;
@@ -110,12 +117,7 @@ a{
     color: white;
 }
 
-#pbilde{
-  max-width: 25vh;
-  max-height: 25vh;
-  margin-top: 10vh;
-  margin-right: 10vh;
-}
+
 
 #abouttxt{
   float: left !important;
@@ -123,24 +125,7 @@ a{
   padding-bottom: 2vh;
 }
 
-#cards{
-  margin-left: 50vh;
-}
-#bilde{
-  max-height: 6vh;
-  max-width: 6vh;
-  margin-top: 4vh;
-  margin-left: 8vh;
-}
-#db{
-  max-width: 5vh;
-  max-height:5vh;
-  margin-right: 2vh;
-}
-#title_box{
-  font-size:3vh;
-  margin-bottom: 2vh;
-}
+
 
 /*disable all highlighting on page*/
 * {

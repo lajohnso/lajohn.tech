@@ -1,5 +1,35 @@
+ul li{
+  display:flex;
+}
+
+
 #skills{
   background: #282c34;
   margin:0;
   height: 140vh;
+}
+
+#cards{
+  margin-left: 50vh;
+
+}
+#bilde{
+  max-height: 8vh;
+  max-width: 8vh;
+  margin-top: 4vh;
+  margin-left: 8vh;
+}
+
+
+#logoID{
+  margin-top: 1vh;
+}
+#title_box{
+  font-size:3vh;
+  margin-bottom: 2vh;
+}
+#db{
+  max-width: 5vh;
+  max-height:5vh;
+  margin-right: 2vh;
 }

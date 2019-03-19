@@ -9,8 +9,13 @@ import laJohnLogo from './images/LaJohnLogo.png';
 import './App.css';
 
 class App extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
+
       <div className="App">
       <nav className="">
         <div className="nav-wrapper">

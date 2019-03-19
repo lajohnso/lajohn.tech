@@ -16,6 +16,7 @@ import github from '../images/github.svg';
 import ol from '../images/OL.png';
 import git from '../images/git-logo.png';
 import wp from '../images/wp.png';
+import firebase from '../images/firebase.png';
 
 
 export default class Skills extends Component {
@@ -27,21 +28,20 @@ export default class Skills extends Component {
           <h3 id="titles2">My Skills</h3>
         </div>
         <div id="cards" class="col s12 m2">
-          <div class="card-panel white">
+          <div class="card-panel grey lighten-2">
             <ul>
-              <li id="title_box">< img id="db" src={db}className=""/>Back-End</li>
+              <li id="title_box">< img id="db" src={db}className=""/> Back-End</li>
               <li id="bilde">< img src={python}className="responsive-img"/></li>
               <li id="bilde">< img src={sql}className="responsive-img"/></li>
-              <li id="bilde">< img src={angular}className="responsive-img"/></li>
-              <li id="bilde">< img src={angular}className="responsive-img"/></li>
+              <li id="bilde">< img src={firebase}className="responsive-img"/></li>
 
             </ul>
           </div>
         </div>
         <div  class="col s12 m2">
-          <div id="card" class="card-panel white">
+          <div id="card" class="card-panel  grey lighten-2">
             <ul>
-              <li id="title_box"><i className="small material-icons">code</i>Front-End</li>
+              <li id="title_box"><i className="small material-icons">code</i> Front-End</li>
               <li id="bilde">< img src={angular}className="responsive-img"/></li>
               <li id="bilde">< img src={react}className="responsive-img"/></li>
               <li id="bilde">< img src={html5}className="responsive-img"/></li>
@@ -52,7 +52,7 @@ export default class Skills extends Component {
           </div>
         </div>
         <div  class="col s12 m2">
-          <div class="card-panel white">
+          <div class="card-panel  grey lighten-2">
             <ul>
               <li id="title_box"><i className="small material-icons">people</i>Project management</li>
               <li id="bilde">< img src={asana}className="responsive-img"/></li>
