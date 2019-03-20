@@ -10,9 +10,9 @@ Technologies used:
 
 To launch project: 
 
-1) clone repository
-2) navigate to my-app
-3) type folliwing commands in terminal: 
+1) Clone repository
+2) Navigate to my-app
+3) Type folliwing commands in terminal: 
     a) npm install 
     b) npm start
     
