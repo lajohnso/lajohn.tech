@@ -3,7 +3,7 @@ import M from 'materialize-css';
 import "./Skills.css"
 
 import angular from '../images/angular.svg';
-import python from '../images/python.jpg';
+import python from '../images/python.png';
 import react from '../images/react_logo.png';
 import db from '../images/db.png';
 import js from '../images/js.png';
