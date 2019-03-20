@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import M from 'materialize-css';
-import Projects from './projects/Projects'
+import Projects from './Projects/Projects'
 import About from './about/About'
 import Skills from './skills/Skills'
 import Footer from './footer/Footer'
@@ -59,7 +59,6 @@ class App extends Component {
         </div>
 
         <About />
-
         <Skills />
         <Projects />
         <Footer />
