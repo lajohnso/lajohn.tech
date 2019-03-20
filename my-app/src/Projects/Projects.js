@@ -23,7 +23,7 @@ export default class Projetcs extends Component {
           <div id="aboutProject" class="row">
             <div class="col s6 offset-s1">
               <p id="p_title">FiskInfo - SINTEF Digital</p>
-              <img id="FiskInfo"
+              <img id="ProjectImg"
                 src={fiskinfo}
                 className="project_img"
               />
@@ -44,31 +44,8 @@ export default class Projetcs extends Component {
 
           <div id="aboutProject" class="row">
             <div class="col s6 offset-s1">
-              <p id="p_title">Posicom.no</p>
-              <img id="FiskInfo"
-                src={posicom}
-                className="project_img"
-              />
-              <br />
-              <i id="visability" class="material-icons">visibility_off</i> Source code private
-
-
-            </div>
-            <div class="col s4">
-              <div>
-                <p id="abouttxt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dui at nunc lacinia condimentum eget ut risus. Mauris egestas dignissim rutrum. Duis sit amet suscipit turpis. Fusce dui ante, semper nec purus ac, varius rhoncus enim. In in pellentesque arcu, sit amet luctus dolor. Mauris at eleifend nisl. Integer eget condimentum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                  Integer tempor orci est, eu mollis sem egestas nec. Proin eu scelerisque arcu. Donec vitae lobortis massa, id efficitur neque. Sed bibendum est enim, vel luctus sapien faucibus vel. Sed pharetra, dolor a viverra consequat, arcu mauris molestie mauris, sed placerat nibh odio ac nisi. Suspendisse nulla odio, efficitur eleifend facilisis consequat, accumsan ac risus. Donec tempor et felis vitae efficitur. Donec et mollis sapien. Aenean consequat ornare enim sed sodales. Nulla   tempor velit nibh, a tempus dui maximus sed. Nulla eget vestibulum mi, eu laoreet ligula.
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-          <div id="aboutProject" class="row">
-            <div class="col s6 offset-s1">
               <p id="p_title"> My Portfilio (This page)</p>
-              <img id="FiskInfo"
+              <img id="ProjectImg"
                 src={portfolio}
                 className="project_img"
               />
@@ -96,13 +73,34 @@ export default class Projetcs extends Component {
             </div>
           </div>
 
+          <div id="aboutProject" class="row">
+            <div class="col s6 offset-s1">
+              <p id="p_title">Posicom.no</p>
+              <img id="ProjectImg"
+                src={posicom}
+                className="project_img"
+              />
+              <br />
+              <i id="visability" class="material-icons">visibility_off</i> Source code private
+
+
+            </div>
+            <div class="col s4">
+              <div>
+                <p id="abouttxt">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dui at nunc lacinia condimentum eget ut risus. Mauris egestas dignissim rutrum. Duis sit amet suscipit turpis. Fusce dui ante, semper nec purus ac, varius rhoncus enim. In in pellentesque arcu, sit amet luctus dolor. Mauris at eleifend nisl. Integer eget condimentum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                  Integer tempor orci est, eu mollis sem egestas nec. Proin eu scelerisque arcu. Donec vitae lobortis massa, id efficitur neque. Sed bibendum est enim, vel luctus sapien faucibus vel. Sed pharetra, dolor a viverra consequat, arcu mauris molestie mauris, sed placerat nibh odio ac nisi. Suspendisse nulla odio, efficitur eleifend facilisis consequat, accumsan ac risus. Donec tempor et felis vitae efficitur. Donec et mollis sapien. Aenean consequat ornare enim sed sodales. Nulla   tempor velit nibh, a tempus dui maximus sed. Nulla eget vestibulum mi, eu laoreet ligula.
+                </p>
+              </div>
+            </div>
+          </div>
 
           <div class="col s12 ">
           </div>
           <div class="row">
             <div class="col s6 offset-s1">
               <p id="p_title">ToDo - Private Project</p>
-              <img id="FiskInfo"
+              <img id="ProjectImg"
                 src={todo}
                 className="project_img"
               />

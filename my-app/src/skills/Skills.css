@@ -16,8 +16,10 @@ ul li{
 #bilde{
   max-height: 8vh;
   max-width: 8vh;
+  min-height: 8vh;
+  min-width: 8vh;
   margin-top: 4vh;
-  margin-left: 8vh;
+  margin-left: 7vh;
 }
 
 
