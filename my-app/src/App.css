@@ -1,3 +1,20 @@
+/*FONTS
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Light-webfont.eot');
+  src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light-webfont.woff') format('woff'), url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular-webfont.eot');
+  src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular-webfont.woff') format('woff'), url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
 
 html {
   scroll-behavior: smooth;
@@ -5,6 +22,7 @@ html {
 h3{
   color: white;
 }
+
 p {
   margin:0;
   font-size: calc(2px + 2vmin);
@@ -18,24 +36,34 @@ nav{
   text-align: left;
   height:10vh;
   width: 100%;
-  margin: 0;
-  padding: 0;
-}
+  padding-top:100vh;
 
+  padding: 0;
+
+}
+.background{
+  background-image: url("./images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+
+}
 .App {
   text-align: center;
 }
-.nav{
-  min-height: 8.5vh;
+nav {
+  position: sticky;
+  top: 0;
 }
 
+nav ul li a.current {
+  background: black;
+}
 .nav-wrapper{
   background-color: #282c34 !important;
   padding-right: 25vh;
 }
 .App-header {
-  background-color: #282c34;
-  min-height: 91.5vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -46,8 +74,31 @@ nav{
   color: white;
 }
 
+#title{
+  font-size: 6vh;
+  margin-bottom: 4vh;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+.button{
+background-color: transparent;
+border-radius:4px;
+border-style: solid;
+border-width: thin;
+font-family: 'Open Sans', sans-serif;
+color: white;
+font-size: 2vh;
+padding: 3vh 5vh;
+}
 
+.button:hover{
+  background-color: grey;
+
+}
 .App-link {
   color: #61dafb;
 }
@@ -79,7 +130,7 @@ nav{
   padding:0;
 }
 #logo{
-  height: 8.5vh;
+  height: 10vh;
   text-align:left;
   cursor: pointer;
 }
@@ -90,31 +141,9 @@ nav{
   /*position:fixed;*/
 }
 #quote{
-  font-family: didot;
   marging:0;
   padding:0;
-  font-style:oblique;
-}
-
-#titles{
-    font-size: calc(10px + 2vmin);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding-bottom: 5vh;
-    color: inherit;
-}
-#titles2{
-    font-size: calc(10px + 2vmin);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding-bottom: 5vh;
-    color: white;
+  font-style:italic;
 }
 
 
@@ -124,7 +153,9 @@ nav{
   text-align: left;
   padding-bottom: 2vh;
 }
-
+#space{
+  margin-left: 1vh;
+}
 
 
 /*disable all highlighting on page*/

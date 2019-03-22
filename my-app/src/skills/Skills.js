@@ -27,40 +27,42 @@ export default class Skills extends Component {
         <div  class="col s12">
           <h3 id="titles2">My Skills</h3>
         </div>
-        <div id="cards" class="col s12 m2">
-          <div class="card-panel grey lighten-2">
-            <ul>
-              <li id="title_box">< img id="db" src={db}className=""/> Back-End</li>
-              <li id="bilde">< img src={python}className="responsive-img"/></li>
-              <li id="bilde">< img src={sql}className="responsive-img"/></li>
-              <li id="bilde">< img src={firebase}className="responsive-img"/></li>
+        <div className="container">
 
-            </ul>
+          <div  class="col s2 m10 ">
+            <div id="card" class="card-panel  grey lighten-2">
+              <i className="small material-icons">code</i><p className="boxTitle"> Front-End</p>
+              <ul>
+                <li id="bilde">< img src={angular}className="responsive-img"/></li>
+                <li id="bilde">< img src={react}className="responsive-img"/></li>
+                <li id="bilde">< img src={html5}className="responsive-img"/></li>
+                <li id="bilde">< img src={css3}className="responsive-img"/></li>
+                <li id="bilde">< img src={js}className="responsive-img"/></li>
+                <li id="bilde">< img src={wp}className="responsive-img"/></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div  class="col s12 m2">
-          <div id="card" class="card-panel  grey lighten-2">
-            <ul>
-              <li id="title_box"><i className="small material-icons">code</i> Front-End</li>
-              <li id="bilde">< img src={angular}className="responsive-img"/></li>
-              <li id="bilde">< img src={react}className="responsive-img"/></li>
-              <li id="bilde">< img src={html5}className="responsive-img"/></li>
-              <li id="bilde">< img src={css3}className="responsive-img"/></li>
-              <li id="bilde">< img src={js}className="responsive-img"/></li>
-              <li id="bilde">< img src={wp}className="responsive-img"/></li>
-            </ul>
+          <div id="cards" class="col s2 m10">
+            <div class="card-panel grey lighten-2">
+            < img id="db" src={db}className=""/> <p className="boxTitle"> Back-End</p>
+              <ul>
+                <li id="bilde">< img src={python}className="responsive-img"/></li>
+                <li id="bilde">< img src={sql}className="responsive-img"/></li>
+                <li id="bilde">< img src={firebase}className="responsive-img"/></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div  class="col s12 m2">
-          <div class="card-panel  grey lighten-2">
-            <ul>
-              <li id="title_box"><i className="small material-icons">people</i>Project management</li>
-              <li id="bilde">< img src={asana}className="responsive-img"/></li>
-              <li id="bilde">< img src={scrum}className="responsive-img"/></li>
-              <li id="bilde">< img src={github}className="responsive-img"/></li>
-              <li id="bilde">< img src={git}className="responsive-img"/></li>
 
-            </ul>
+          <div  class="col s2 m10">
+            <div class="card-panel  grey lighten-2">
+              <i className="small material-icons">people</i><p className="boxTitle"> Project management</p>
+              <ul>
+                <li id="bilde">< img src={asana}className="responsive-img"/></li>
+                <li id="bilde">< img src={scrum}className="responsive-img"/></li>
+                <li id="bilde">< img src={github}className="responsive-img"/></li>
+                <li id="bilde">< img src={git}className="responsive-img"/></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

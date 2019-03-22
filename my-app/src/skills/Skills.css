@@ -1,7 +1,15 @@
 ul li{
-  display:flex;
+  display: inline-block;
 }
 
+.container{
+  margin-left: 38vh;
+}
+.boxTitle{
+  margin-bottom: 0;
+  padding:0;
+  display: inline;
+}
 
 #skills{
   background: #282c34;
@@ -9,27 +17,17 @@ ul li{
   height: 140vh;
 }
 
-#cards{
-  margin-left: 50vh;
 
-}
 #bilde{
-  max-height: 8vh;
-  max-width: 8vh;
-  min-height: 8vh;
-  min-width: 8vh;
-  margin-top: 4vh;
+  max-height: 6vh;
+  max-width: 6vh;
   margin-left: 7vh;
 }
-
 
 #logoID{
   margin-top: 1vh;
 }
-#title_box{
-  font-size:3vh;
-  margin-bottom: 2vh;
-}
+
 #db{
   max-width: 5vh;
   max-height:5vh;

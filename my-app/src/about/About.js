@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import M from 'materialize-css';
 import pbilde from '../images/P.Bilde.jpg';
 import "./About.css"
+import laJohnLogo from '../images/LaJohnLogo.png';
 
 
 export default class Projetcs extends Component {
@@ -9,7 +10,21 @@ export default class Projetcs extends Component {
     return (
 
     /* lager en rad av 3 er 4/12 store */
-    <div className="About">
+    <div className="About" id="About">
+    <nav>
+      <div className="nav-wrapper">
+        <img id="logo"
+          onClick={this.scrollToTop}
+          className="left brand-logo"
+          src={laJohnLogo}
+          />
+        <ul id="nav-mobile" className="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
       <div id="about" className="row">
         <div class="col s12">
           <h3 id="titles">About Lars-August</h3>

@@ -6,7 +6,9 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
-    "react-scroll": "^1.7.11"
+    "react-scroll": "^1.7.11",
+    "react-typed": "^1.1.2",
+    "typed.js": "^2.0.10"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,6 +1,8 @@
+
+
 #projects{
   margin-bottom:0;
-  height: 305vh;
+  height: 365vh;
   background-color: white !important;
 }
 
@@ -52,16 +54,6 @@
   float: right;
   color:black;
   /*position:fixed;*/
-}
-
-
-
-
-#quote{
-  font-family: didot;
-  marging:0;
-  padding:0;
-  font-style:oblique;
 }
 
 #titles{
