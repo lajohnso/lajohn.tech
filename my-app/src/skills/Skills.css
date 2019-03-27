@@ -1,9 +1,12 @@
-ul li{
+.card-panel ul li{
   display: inline-block;
 }
 
 .container{
-  margin-left: 38vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 .boxTitle{
   margin-bottom: 0;
@@ -13,8 +16,7 @@ ul li{
 
 #skills{
   background: #282c34;
-  margin:0;
-  height: 140vh;
+  padding-bottom: 20vh;
 }
 
 

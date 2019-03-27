@@ -1,5 +1,5 @@
 .About{
-
+margin-bottom: 20vh;
 }
 
 #abouttxt{
@@ -11,13 +11,12 @@
 #about{
   margin-top:4vh;
   padding: 0;
-  height: 120vh;
   background: white;
 
 }
 
 #pbilde{
-  max-width: 25vh;
+  max-width: 25vw;
   max-height: 25vh;
   margin-top: 10vh;
   margin-right: 10vh;

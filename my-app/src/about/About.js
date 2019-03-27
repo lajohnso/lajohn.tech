@@ -11,7 +11,7 @@ export default class Projetcs extends Component {
 
     /* lager en rad av 3 er 4/12 store */
     <div className="About" id="About">
-    <nav>
+    {/*<nav>
       <div className="nav-wrapper">
         <img id="logo"
           onClick={this.scrollToTop}
@@ -24,15 +24,15 @@ export default class Projetcs extends Component {
           <li><a href="#projects">Projects</a></li>
         </ul>
       </div>
-    </nav>
+    </nav>*/}
       <div id="about" className="row">
         <div class="col s12">
           <h3 id="titles">About Lars-August</h3>
         </div>
-        <div id="pbilde" className="col s2 offset-s1">
+        <div id="pbilde" className="col s3 m2 l1 offset-m5 offset-s5 offset-l2 ">
             <img src={pbilde} className="circle responsive-img"/>
         </div>
-        <div  class="col s6">
+        <div  class="col s8 m8 l6 offset-s3 offset-m2">
           <p id="abouttxt">
             Nam molestie quis ligula at varius. Nam id sapien diam.Sed ipsum enim, lobortis vel volutpat ornare, laoreet eget sapien. Quisque magna ante, pretium eu est in, dictum bibendum arcu.
             Nam id sapien diam. Sed ipsum enim, lobortis vel volutpat ornare, laoreet eget sapien. Quisque magna ante, pretium eu est in, dictum bibendum arcu.

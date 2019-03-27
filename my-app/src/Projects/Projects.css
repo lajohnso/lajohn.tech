@@ -1,24 +1,66 @@
+.tech_used {
+  float:none;
+  list-style-type: circle !important;
+  margin: 0;
+  padding: 0;
+}
+.tech_used li{
+  display:block !important;
+}
+.textContainer{
+  text-align: center;
+}
+.adjust ul{
+  list-style-type: circle !important;
+  text-align: left;
+}
+.pageSep:after{
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+  /*height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);*/
+}
+.pageSep{
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  width: 80%;
+}
 
+#abouttxt{
+  padding-bottom: 2vh;
+  display: inline-block;
+  margin-top: 4vh;
+  display: inline-block;
+}
 
 #projects{
-  margin-bottom:0;
-  height: 365vh;
   background-color: white !important;
 }
 
 #p_title{
-  font-weight: bold;
+
   font-size: 3vh;
 }
 
 #ProjectImg{
-  width: 70vh;
+  width: 37vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 2vh;
   margin-top: 2vh;
 }
 
 #aboutProject{
+  margin-top: 10vh;
   margin-bottom: 10vh;
 }
 
@@ -34,6 +76,7 @@
 
 #visability{
    vertical-align: top;
+   text-align: center;
 }
 
 #strip{
@@ -63,7 +106,7 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    padding-bottom: 5vh;
+
     color: inherit;
 }
 #titles2{
@@ -76,3 +119,33 @@
     padding-bottom: 5vh;
     color: white;
 }
+
+
+/*    <ul className ="tech_used">Technologies used:
+      <li>-DC.js</li>
+      <li>-D3.js</li>
+      <li>-Crossfilter.js</li>
+      <li>-Python</li>
+      <li>-OpenLayers 4</li>
+    </ul>*/
+
+    #link{
+      margin-left: 1vh;
+      margin-right: 1vh;
+    }
+    #link a:link {
+      text-decoration: none;
+      color: red!important;
+    }
+
+    #link a:visited {
+      text-decoration: none;
+    }
+
+    #link a:hover {
+      text-decoration: underline;
+    }
+
+    a:active {
+      text-decoration: underline;
+    }

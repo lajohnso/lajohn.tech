@@ -28,8 +28,7 @@ export default class Skills extends Component {
           <h3 id="titles2">My Skills</h3>
         </div>
         <div className="container">
-
-          <div  class="col s2 m10 ">
+          <div  class="col s10 m10 l0 offset-l1 offset-m1 offset-s1">
             <div id="card" class="card-panel  grey lighten-2">
               <i className="small material-icons">code</i><p className="boxTitle"> Front-End</p>
               <ul>
@@ -42,7 +41,7 @@ export default class Skills extends Component {
               </ul>
             </div>
           </div>
-          <div id="cards" class="col s2 m10">
+          <div id="cards" class="col s10 m10 l0 offset-l1 offset-m1 offset-s1 ">
             <div class="card-panel grey lighten-2">
             < img id="db" src={db}className=""/> <p className="boxTitle"> Back-End</p>
               <ul>
@@ -53,7 +52,7 @@ export default class Skills extends Component {
             </div>
           </div>
 
-          <div  class="col s2 m10">
+          <div  class="col s10 m10 l10 offset-l1 offset-m1 offset-s1">
             <div class="card-panel  grey lighten-2">
               <i className="small material-icons">people</i><p className="boxTitle"> Project management</p>
               <ul>

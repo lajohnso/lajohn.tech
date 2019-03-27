@@ -4,6 +4,8 @@ import Projects from './Projects/Projects'
 import About from './about/About'
 import Skills from './skills/Skills'
 import Footer from './footer/Footer'
+import Navigation from './navigation/navigation'
+
 import Typed from 'react-typed'
 
 import laJohnLogo from './images/LaJohnLogo.png';
@@ -24,9 +26,9 @@ class App extends Component {
 
     return (
 
-      <div className="App">
+      <div className="App" id="App">
+      {/*  <Navigation />*/}
       <div className="background">
-
 
         <div id="appHeader"
          className="App-header"
@@ -69,6 +71,7 @@ class App extends Component {
         </div>
 
         </div>
+
         <About />
         <Skills />
         <Projects />
