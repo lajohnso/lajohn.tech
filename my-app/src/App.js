@@ -27,7 +27,8 @@ class App extends Component {
     return (
 
       <div className="App" id="App">
-      {/*  <Navigation />*/}
+
+
       <div className="background">
 
         <div id="appHeader"
@@ -36,13 +37,14 @@ class App extends Component {
           <p id="title">Welcome to my<span id="space"></span>
           <Typed
               strings={[
-              ' ^1000 portfolio ^2000',
-              ' ReactJS Application ^2000',
-              ' web page ^2000',
-              ' portfolio ^2000'
+              ' ^1000 portfolio ^1000',
+              ' ReactJS Application ^1000',
+              ' web page ^1000',
+              ' portfolio '
 
 
               ]}
+              value='stop'
               typeSpeed={70}
               backSpeed={90}
 
@@ -71,7 +73,7 @@ class App extends Component {
         </div>
 
         </div>
-
+        <Navigation />
         <About />
         <Skills />
         <Projects />

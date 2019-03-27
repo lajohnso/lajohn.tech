@@ -4,6 +4,7 @@ import './Projects.css';
 
 
 import fiskinfo from '../images/FiskInfo.gif';
+import heatmap from '../images/heatmap.png';
 import todo from '../images/todo.png';
 import github from '../images/github.svg';
 import posicom from '../images/posicom.png';
@@ -25,7 +26,7 @@ export default class Projetcs extends Component {
             <div class="col s12 m12 l6 offset-l1">
               <p id="p_title">FiskInfo - SINTEF Digital</p>
               <img id="ProjectImg"
-                src={fiskinfo}
+                src={heatmap}
                 className="project_img"
               />
               <br />
@@ -36,7 +37,7 @@ export default class Projetcs extends Component {
             <div className="col s8 m8 l4 offset-s2 offset-m2">
               <div className="textContainer">
                 <p id="abouttxt">
-                  My bachelor thesis project is called FiskInfo. Through the course IT2901 a group of seven students were hired by SINTEF Digital to develop the application FiskInfo. The application’s purpose is to aggregate, gather and display useful information for the fishing industry using coordinated views to connect the data of graphs and maps. The project delivered a functional proof of concept build with development quality.
+                  Through the course IT2901 a group of seven students were hired by SINTEF Digital to develop the application FiskInfo as a part of the bachelor thesis. The application’s purpose is to aggregate, gather and display useful information for the fishing industry using coordinated views to connect the data of graphs and maps. The project delivered a functional proof of concept build with development quality. Keywords for this projects are; dc.js, d3.js, crossfilter.js, OpenLayers4, python.
                 </p>
               </div>
             </div>
@@ -66,7 +67,7 @@ export default class Projetcs extends Component {
             <div className="col s8 m8 l4 offset-s2 offset-m2">
               <div>
                 <p id="abouttxt">
-                  This project was created to present my previous work as a web developer. It is a responsive website that uses the grid from Materilize.css to ensure a smooth fit to any screen size. This site was created with ReactJS and it is hosted through Netlify. Visit my GitHub to have a closer look at my way of working, and the source code of this project.
+                  This project was created to present some of my work as a web developer. It is a responsive website that uses grid styling from Materilize.css to ensure a smooth fit to any screen size. This site was created with ReactJS and it is hosted through Netlify. Visit my GitHub to have a closer look at my way of working, and the source code of this project.
                 </p>
               </div>
             </div>
@@ -86,7 +87,7 @@ export default class Projetcs extends Component {
             <div class="col s8 m8 l4 offset-s2 offset-m2">
               <div>
                 <p id="abouttxt">
-                  I have created the website for Posicom AS. In 2017 I had just finished the first year of my computer science education, which led me to my first web development project. Posicom AS needed to update their website, which was outdated. They asked me to delelop in Wordpress, to limit maintaince costs. In this project I got experience with customer-client communication, wordpress, php and more.
+                  Created a website for Posicom AS. In 2017 I had just finished the first year of my computer science degree, which led me to my first web development project. Posicom AS needed to update their website, which was outdated. They asked me to develop a new page in Wordpress, to limit maintaince costs. Throughout this project I got experience with customer-client communication, wordpress, php and more.
                 </p>
               </div>
             </div>
@@ -121,9 +122,9 @@ export default class Projetcs extends Component {
                    target="_blank">
                   openweathermap.org
                   </a>
-                  by using a personal API key. In my project I converted the data to json objects. Inspiration from github user hamza-mirza.
+                  by using a personal API key. In my project I converted the data to json objects. Inspiration from github user hamza-mirza. Keywords for this project are ReactJS, API-calls, json.
                 </p>
-                <p id="abouttxt">Relevant technologies used are ReactJS, API, json.</p>
+
               </div>
             </div>
           </div>

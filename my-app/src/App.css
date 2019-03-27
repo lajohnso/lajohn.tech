@@ -11,6 +11,10 @@ p {
   margin:0;
   font-size: calc(2px + 2vmin);
 }
+.medium a {
+  text-decoration: none;
+
+}
 
 .background{
   background-image: url("./images/background2.jpg");
@@ -59,17 +63,17 @@ padding: 3vh 5vh;
 
 .button:hover{
   background-color: grey;
-
+  text-decoration: none;
 }
 .App-link {
   color: #61dafb;
 }
 
 .expand{
-  vertical-align: bottom;
+  /*vertical-align: bottom;*/
   outline: none;
   position: absolute;
-  bottom: 8vh;
+  margin-top: 28vh;
 }
 
 .expand a{
@@ -80,7 +84,6 @@ padding: 3vh 5vh;
   outline: none;
   cursor: pointer;
 }
-
 
 .page-footer{
   background-color: grey;

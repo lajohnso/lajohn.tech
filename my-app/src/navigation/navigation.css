@@ -2,6 +2,7 @@
 nav {
   z-index: 1;
   text-align: left;
+
 }
 nav ul li a.current {
   background: black;
@@ -12,7 +13,6 @@ nav ul li a.current {
   background-color: #282c34 !important;
   padding-right: 25vh;
 }
-
 
 nav ul{
   float:right;
