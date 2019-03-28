@@ -2,29 +2,51 @@ import React, { Component } from 'react';
 import M from 'materialize-css';
 import pbilde from '../images/P.Bilde.jpg';
 import "./About.css"
+import laJohnLogo from '../images/LaJohnLogo.png';
+import ReactDom from 'react';
 
 
 export default class Projetcs extends Component {
+  componentDidUpdate = () => { ReactDom.findDOMNode(this).scrollIntoView(); }
+
+
   render() {
     return (
 
     /* lager en rad av 3 er 4/12 store */
-    <div className="About">
+    <div className="About"
+    id="About"
+    ref={this.myRef}
+    >
+    {/*<nav>
+      <div className="nav-wrapper">
+        <img id="logo"
+          onClick={this.scrollToTop}
+          className="left brand-logo"
+          src={laJohnLogo}
+          />
+        <ul id="nav-mobile" className="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </nav>*/}
       <div id="about" className="row">
         <div class="col s12">
           <h3 id="titles">About Lars-August</h3>
         </div>
-        <div id="pbilde" className="col s2 offset-s1">
+        <div id="pbilde" className="col s3 m2 l1 offset-m5 offset-s5 offset-l2 ">
             <img src={pbilde} className="circle responsive-img"/>
         </div>
-        <div  class="col s6">
+        <div  class="col s8 m8 l6 offset-s3 offset-m2">
           <p id="abouttxt">
-            Nam molestie quis ligula at varius. Nam id sapien diam.Sed ipsum enim, lobortis vel volutpat ornare, laoreet eget sapien. Quisque magna ante, pretium eu est in, dictum bibendum arcu.
-            Nam id sapien diam. Sed ipsum enim, lobortis vel volutpat ornare, laoreet eget sapien. Quisque magna ante, pretium eu est in, dictum bibendum arcu.
+          Hey, I’m Lars-August.  I am a web developer and a student at NTNU. I have a bachelor’s degree in Informatics. Throughout my education I have studied software development, web development, digital design and more. I have grown to love (and prefer) web development. I created this portfolio to display my skills as a developer through previous projects.
+          I'm at the point in my career where I look to gain more experience in the industry. I have lived in Norway all my life, but I would be happy to relocate and explore other parts of the world!
           </p>
           <p id="abouttxt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dui at nunc lacinia condimentum eget ut risus. Mauris egestas dignissim rutrum. Duis sit amet suscipit turpis. Fusce dui ante, semper nec purus ac, varius rhoncus enim. In in pellentesque arcu, sit amet luctus dolor. Mauris at eleifend nisl. Integer eget condimentum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-            Integer tempor orci est, eu mollis sem egestas nec. Proin eu scelerisque arcu. Donec vitae lobortis massa, id efficitur neque. Sed bibendum est enim, vel luctus sapien faucibus vel. Sed pharetra, dolor a viverra consequat, arcu mauris molestie mauris, sed placerat nibh odio ac nisi. Suspendisse nulla odio, efficitur eleifend facilisis consequat, accumsan ac risus. Donec tempor et felis vitae efficitur. Donec et mollis sapien. Aenean consequat ornare enim sed sodales. Nulla   tempor velit nibh, a tempus dui maximus sed. Nulla eget vestibulum mi, eu laoreet ligula.</p>
+          In my spare time I enjoy playing volleyball and video games. I was new to volleyball when I first started at University, and now it is a huge part of my life. Furthermore I enjoy traveling, and I was recently lucky enough to visit Japan for three weeks. As a person I am hard working, eager to learn and develop new skills, dedicated to deliver quality products, and I have a positive outlook on life.
+          </p>
           <br />
         </div>
      </div>

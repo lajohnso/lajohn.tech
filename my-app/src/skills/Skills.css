@@ -1,36 +1,60 @@
-ul li{
-  display:flex;
+.card-panel ul li{
+  display: inline-block;
 }
 
+.container{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.boxTitle{
+  margin-bottom: 0;
+  padding:0;
+  display: inline;
+  float: left;
+}
 
 #skills{
-  background: #282c34;
-  margin:0;
-  height: 140vh;
+  background: #5A5858;
+  padding-bottom: 20vh;
 }
 
-#cards{
-  margin-left: 50vh;
 
-}
 #bilde{
-  max-height: 8vh;
-  max-width: 8vh;
-  min-height: 8vh;
-  min-width: 8vh;
-  margin-top: 4vh;
-  margin-left: 7vh;
+  height: 8vh;
+  width: 8vh;
+  margin: 4vh;
 }
+#bilde_asana{
+  height: 12vh;
+  width: 12vh;
+  margin-right: 4vh;
+  margin-left: 4vh;
 
+}
+#bilde_sql{
+  height: 14vh;
+  width: 14vh;
+  margin: 4vh;
+  margin-bottom: 0;
+}
+#title_skills{
+  margin-top: 10vh;
+  font-size: calc(14px + 2vmin);
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 5vh;
+  color: white;
+}
 
 #logoID{
   margin-top: 1vh;
 }
-#title_box{
-  font-size:3vh;
-  margin-bottom: 2vh;
-}
+
 #db{
+  float: left;
   max-width: 5vh;
   max-height:5vh;
   margin-right: 2vh;

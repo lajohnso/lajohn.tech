@@ -4,10 +4,12 @@ import './Projects.css';
 
 
 import fiskinfo from '../images/FiskInfo.gif';
+import heatmap from '../images/heatmap.png';
 import todo from '../images/todo.png';
 import github from '../images/github.svg';
 import posicom from '../images/posicom.png';
 import portfolio from '../images/portfolio.png';
+import weather from '../images/weather.png';
 
 
 export default class Projetcs extends Component {
@@ -15,16 +17,16 @@ export default class Projetcs extends Component {
     return (
 
       <div className="Projects">
-        <div id="projects" className="row">
+        <div id="projects" className="">
           <br />
           <h3 id="titles">Previous projects</h3>
-          <div class="col s12 ">
+          <div className="col s12 ">
           </div>
-          <div id="aboutProject" class="row">
-            <div class="col s6 offset-s1">
+          <div id="aboutProject" className="row">
+            <div class="col s12 m12 l6 offset-l1">
               <p id="p_title">FiskInfo - SINTEF Digital</p>
               <img id="ProjectImg"
-                src={fiskinfo}
+                src={heatmap}
                 className="project_img"
               />
               <br />
@@ -32,18 +34,17 @@ export default class Projetcs extends Component {
 
 
             </div>
-            <div class="col s4">
-              <div>
+            <div className="col s8 m8 l4 offset-s2 offset-m2">
+              <div className="textContainer">
                 <p id="abouttxt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dui at nunc lacinia condimentum eget ut risus. Mauris egestas dignissim rutrum. Duis sit amet suscipit turpis. Fusce dui ante, semper nec purus ac, varius rhoncus enim. In in pellentesque arcu, sit amet luctus dolor. Mauris at eleifend nisl. Integer eget condimentum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                  Integer tempor orci est, eu mollis sem egestas nec. Proin eu scelerisque arcu. Donec vitae lobortis massa, id efficitur neque. Sed bibendum est enim, vel luctus sapien faucibus vel. Sed pharetra, dolor a viverra consequat, arcu mauris molestie mauris, sed placerat nibh odio ac nisi. Suspendisse nulla odio, efficitur eleifend facilisis consequat, accumsan ac risus. Donec tempor et felis vitae efficitur. Donec et mollis sapien. Aenean consequat ornare enim sed sodales. Nulla   tempor velit nibh, a tempus dui maximus sed. Nulla eget vestibulum mi, eu laoreet ligula.
+                  Through the course IT2901 a group of seven students were hired by SINTEF Digital to develop the application FiskInfo as a part of the bachelor thesis. The application’s purpose is to aggregate, gather and display useful information for the fishing industry using coordinated views to connect the data of graphs and maps. The project delivered a functional proof of concept build with development quality. Keywords for this projects are; dc.js, d3.js, crossfilter.js, OpenLayers4, python.
                 </p>
               </div>
             </div>
           </div>
-
+          <hr className="pageSep" />
           <div id="aboutProject" class="row">
-            <div class="col s6 offset-s1">
+            <div class="col s12 m12 l6 offset-l1">
               <p id="p_title"> My Portfilio (This page)</p>
               <img id="ProjectImg"
                 src={portfolio}
@@ -63,18 +64,17 @@ export default class Projetcs extends Component {
               </a>
 
             </div>
-            <div class="col s4">
+            <div className="col s8 m8 l4 offset-s2 offset-m2">
               <div>
                 <p id="abouttxt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dui at nunc lacinia condimentum eget ut risus. Mauris egestas dignissim rutrum. Duis sit amet suscipit turpis. Fusce dui ante, semper nec purus ac, varius rhoncus enim. In in pellentesque arcu, sit amet luctus dolor. Mauris at eleifend nisl. Integer eget condimentum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                  Integer tempor orci est, eu mollis sem egestas nec. Proin eu scelerisque arcu. Donec vitae lobortis massa, id efficitur neque. Sed bibendum est enim, vel luctus sapien faucibus vel. Sed pharetra, dolor a viverra consequat, arcu mauris molestie mauris, sed placerat nibh odio ac nisi. Suspendisse nulla odio, efficitur eleifend facilisis consequat, accumsan ac risus. Donec tempor et felis vitae efficitur. Donec et mollis sapien. Aenean consequat ornare enim sed sodales. Nulla   tempor velit nibh, a tempus dui maximus sed. Nulla eget vestibulum mi, eu laoreet ligula.
+                  This project was created to present some of my work as a web developer. It is a responsive website that uses grid styling from Materilize.css to ensure a smooth fit to any screen size. This site was created with ReactJS and it is hosted through Netlify. Visit my GitHub to have a closer look at my way of working, and the source code of this project.
                 </p>
               </div>
             </div>
           </div>
-
+          <hr className="pageSep" />
           <div id="aboutProject" class="row">
-            <div class="col s6 offset-s1">
+            <div class="col s12 m6 l6 offset-l1 offset-m3">
               <p id="p_title">Posicom.no</p>
               <img id="ProjectImg"
                 src={posicom}
@@ -82,26 +82,22 @@ export default class Projetcs extends Component {
               />
               <br />
               <i id="visability" class="material-icons">visibility_off</i> Source code private
-
-
             </div>
-            <div class="col s4">
+
+            <div class="col s8 m8 l4 offset-s2 offset-m2">
               <div>
                 <p id="abouttxt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dui at nunc lacinia condimentum eget ut risus. Mauris egestas dignissim rutrum. Duis sit amet suscipit turpis. Fusce dui ante, semper nec purus ac, varius rhoncus enim. In in pellentesque arcu, sit amet luctus dolor. Mauris at eleifend nisl. Integer eget condimentum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                  Integer tempor orci est, eu mollis sem egestas nec. Proin eu scelerisque arcu. Donec vitae lobortis massa, id efficitur neque. Sed bibendum est enim, vel luctus sapien faucibus vel. Sed pharetra, dolor a viverra consequat, arcu mauris molestie mauris, sed placerat nibh odio ac nisi. Suspendisse nulla odio, efficitur eleifend facilisis consequat, accumsan ac risus. Donec tempor et felis vitae efficitur. Donec et mollis sapien. Aenean consequat ornare enim sed sodales. Nulla   tempor velit nibh, a tempus dui maximus sed. Nulla eget vestibulum mi, eu laoreet ligula.
+                  Created a website for Posicom AS. In 2017 I had just finished the first year of my computer science degree, which led me to my first web development project. Posicom AS needed to update their website, which was outdated. They asked me to develop a new page in Wordpress, to limit maintaince costs. Throughout this project I got experience with customer-client communication, wordpress, php and more.
                 </p>
               </div>
             </div>
           </div>
-
-          <div class="col s12 ">
-          </div>
-          <div class="row">
-            <div class="col s6 offset-s1">
-              <p id="p_title">ToDo - Private Project</p>
+          <hr className="pageSep" />
+          <div id="aboutProject"  class="row">
+            <div class="col s12 m6 l6 offset-l1 offset-m3">
+              <p id="p_title">Weather application - Private Project</p>
               <img id="ProjectImg"
-                src={todo}
+                src={weather}
                 className="project_img"
               />
               <br />
@@ -116,22 +112,26 @@ export default class Projetcs extends Component {
                   >
                 </img>
               </a>
-
-
             </div>
-            <div class="col s4">
-              <div>
+            <div class="col s8 m8 l4 offset-s2 offset-m2">
+              <div className="adjust">
                 <p id="abouttxt">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dui at nunc lacinia condimentum eget ut risus. Mauris egestas dignissim rutrum. Duis sit amet suscipit turpis. Fusce dui ante, semper nec purus ac, varius rhoncus enim. In in pellentesque arcu, sit amet luctus dolor. Mauris at eleifend nisl. Integer eget condimentum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                  Integer tempor orci est, eu mollis sem egestas nec. Proin eu scelerisque arcu. Donec vitae lobortis massa, id efficitur neque. Sed bibendum est enim, vel luctus sapien faucibus vel. Sed pharetra, dolor a viverra consequat, arcu mauris molestie mauris, sed placerat nibh odio ac nisi. Suspendisse nulla odio, efficitur eleifend facilisis consequat, accumsan ac risus. Donec tempor et felis vitae efficitur. Donec et mollis sapien. Aenean consequat ornare enim sed sodales. Nulla   tempor velit nibh, a tempus dui maximus sed. Nulla eget vestibulum mi, eu laoreet ligula.
+                  The project "Weather application" was all about learning how to communicate with an external API. In this case, I collected the data from
+                   <a id="link"
+                  href="https://wwww.openweathermap.org"
+                   target="_blank">
+                  openweathermap.org
+                  </a>
+                  by using a personal API key. In my project I converted the data to json objects. Inspiration from github user hamza-mirza. Keywords for this project are ReactJS, API-calls, json.
                 </p>
+
               </div>
             </div>
           </div>
         </div>
 
         <div id= "upwards" className="col1 offset s11">
-          <i id="up" className="medium material-icons"><a href="#logo">expand_less</a></i>
+          <i id="up" className="medium material-icons"><a href="#App">expand_less</a></i>
         </div>
       </div>
 

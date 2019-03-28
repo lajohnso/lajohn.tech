@@ -1,3 +1,7 @@
+.About{
+margin-bottom: 20vh;
+}
+
 #abouttxt{
   float: left !important;
   text-align: left;
@@ -5,22 +9,15 @@
 }
 
 #about{
-  margin:0;
+  margin-top:4vh;
   padding: 0;
-  height: 120vh;
   background: white;
 
-  clip-path: polygon(
-      0 0,
-      100% 0,
-      100% 100%,
-      0 calc(100% - 5vw)
-    );
 }
 
 #pbilde{
-  max-width: 25vh;
+  max-width: 25vw;
   max-height: 25vh;
-  margin-top: 10vh;
+  margin-top: 5vh;
   margin-right: 10vh;
 }

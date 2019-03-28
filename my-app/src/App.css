@@ -1,4 +1,6 @@
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -7,35 +9,27 @@ h3{
 }
 p {
   margin:0;
-  font-size: calc(2px + 2vmin);
+  font-size: calc(4px + 2vmin);
+}
+.medium a {
+  text-decoration: none;
+
 }
 
-a{
-  color:inherit;
-}
+.background{
+  background-image: url("./images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  background-size: cover;
 
-nav{
-  text-align: left;
-  height:10vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
-
 .App {
   text-align: center;
 }
-.nav{
-  min-height: 8.5vh;
-}
 
-.nav-wrapper{
-  background-color: #282c34 !important;
-  padding-right: 25vh;
-}
 .App-header {
-  background-color: #282c34;
-  min-height: 91.5vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -46,24 +40,52 @@ nav{
   color: white;
 }
 
+#title{
+  font-size: 6vh;
+  font-family: 'Lato', sans-serif;
 
+  margin-bottom: 4vh;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+.button{
+background-color: transparent;
+border-radius:4px;
+border-style: solid;
+border-width: thin;
+font-family: 'Open Sans', sans-serif;
+color: white;
+font-size: 2vh;
+padding: 3vh 5vh;
+}
+
+.button:hover{
+  background-color: grey;
+  text-decoration: none;
+}
 .App-link {
   color: #61dafb;
 }
 
 .expand{
-  vertical-align: bottom;
+  /*vertical-align: bottom;*/
   outline: none;
   position: absolute;
-  bottom: 4vh;
+  margin-top: 28vh;
+}
+
+.expand a{
+  color:white;
 }
 
 .material-icons{
   outline: none;
   cursor: pointer;
 }
-
 
 .page-footer{
   background-color: grey;
@@ -72,17 +94,11 @@ nav{
   padding:0;
 }
 
-
-
 .row{
-  margin:0;
+  margin-top: 5vh;
   padding:0;
 }
-#logo{
-  height: 8.5vh;
-  text-align:left;
-  cursor: pointer;
-}
+
 #up a{
   right:5vh;
   bottom:5vh;
@@ -90,42 +106,48 @@ nav{
   /*position:fixed;*/
 }
 #quote{
-  font-family: didot;
-  marging:0;
+  margin:0;
   padding:0;
-  font-style:oblique;
+  font-style:italic;
 }
 
-#titles{
-    font-size: calc(10px + 2vmin);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding-bottom: 5vh;
-    color: inherit;
-}
-#titles2{
-    font-size: calc(10px + 2vmin);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding-bottom: 5vh;
-    color: white;
+#space{
+  margin-left: 1vh;
 }
 
+#logo:hover {
+  transition: 0.50s;
+    -webkit-transition: 0.50s;
+    -moz-transition: 0.50s;
+    -ms-transition: 0.50s;
+    -o-transition: 0.50s;
+    -webkit-transform: rotate(10deg)scale(1.1);;
+    -moz-transform: rotate(10deg)scale(1.1);;
+    -o-transform: rotate(10deg)scale(1.1);;
+    -ms-transform: rotate(10deg)scale(1.1);;
+    transform: rotate(10deg)scale(1.1);;
 
 
-#abouttxt{
-  float: left !important;
+}
+@media only screen and (max-width: 600px) {
+  #logo{
+    margin:2vh;
+  }
+}
+#logo{
+border-radius: 10px;
+display: block;
+position: fixed;
+  transition: 0.50s;
+    -webkit-transition: 0.50s;
+    -moz-transition: 0.50s;
+    -ms-transition: 0.50s;
+    -o-transition: 0.50s;
+  height: 64px;
   text-align: left;
-  padding-bottom: 2vh;
+  cursor: pointer;
+  margin: 5vh;
 }
-
-
 
 /*disable all highlighting on page*/
 * {
