@@ -20,7 +20,7 @@ To launch project:
 Current status of project:
 
 - I have completed general setup.
-- The site is not yet responsive, will accomplish this with CSS Flexbox and Grid.
-- It is a static site (considering adding some Firebase back-end eventually) 
+- Will update text content.
+- Will add sticky nav-bar
 
 
