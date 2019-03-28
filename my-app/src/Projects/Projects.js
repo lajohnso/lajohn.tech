@@ -8,7 +8,7 @@ import heatmap from '../images/heatmap.png';
 import todo from '../images/todo.png';
 import github from '../images/github.svg';
 import posicom from '../images/posicom.png';
-import portfolio from '../images/portfolio.png';
+import portfolio from '../images/portfolio2.png';
 import weather from '../images/weather.png';
 
 
