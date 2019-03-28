@@ -12,18 +12,41 @@
   margin-bottom: 0;
   padding:0;
   display: inline;
+  float: left;
 }
 
 #skills{
-  background: #282c34;
+  background: #5A5858;
   padding-bottom: 20vh;
 }
 
 
 #bilde{
-  max-height: 6vh;
-  max-width: 6vh;
-  margin-left: 7vh;
+  height: 8vh;
+  width: 8vh;
+  margin: 4vh;
+}
+#bilde_asana{
+  height: 12vh;
+  width: 12vh;
+  margin-right: 4vh;
+  margin-left: 4vh;
+
+}
+#bilde_sql{
+  height: 14vh;
+  width: 14vh;
+  margin: 4vh;
+  margin-bottom: 0;
+}
+#title_skills{
+  margin-top: 10vh;
+  font-size: calc(14px + 2vmin);
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 5vh;
+  color: white;
 }
 
 #logoID{
@@ -31,6 +54,7 @@
 }
 
 #db{
+  float: left;
   max-width: 5vh;
   max-height:5vh;
   margin-right: 2vh;

@@ -8,7 +8,7 @@ import Navigation from './navigation/navigation'
 
 import Typed from 'react-typed'
 
-import laJohnLogo from './images/LaJohnLogo.png';
+import laJohnLogo from './images/logo3.png';
 import background from './images/background.png';
 import background2 from './images/background2.jpg';
 
@@ -19,6 +19,12 @@ class App extends Component {
   componentDidMount(){
     document.getElementById('appHeader').scrollIntoView();
     }
+    constructor(props) {
+       super(props)
+       this.myRef = React.createRef()   // Create a ref object
+   }
+
+   scrollToMyRef = () => window.scrollTo(0, this.myRef.current.offsetTop)
 
   render() {
 
@@ -30,9 +36,14 @@ class App extends Component {
 
 
       <div className="background">
+      <img id="logo"
+          onClick={this.scrollToMyRef}
+          className="left brand-logo"
+          src={laJohnLogo} />
 
         <div id="appHeader"
          className="App-header"
+         ref={this.myRef}
         >
           <p id="title">Welcome to my<span id="space"></span>
           <Typed
@@ -73,7 +84,7 @@ class App extends Component {
         </div>
 
         </div>
-        <Navigation />
+        {/*<Navigation />*/}
         <About />
         <Skills />
         <Projects />
