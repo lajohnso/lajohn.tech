@@ -21,6 +21,7 @@ Current status of project:
 
 - I have completed general setup.
 - Will update text content.
+- Will clean up code further
 - Will add sticky nav-bar
 
 
