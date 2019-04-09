@@ -16,7 +16,8 @@ import github from '../images/github.svg';
 import ol from '../images/OL.png';
 import git from '../images/git-logo.png';
 import wp from '../images/wp.png';
-import firebase from '../images/firebase.png';
+import firebase from '../images/firebase_logo.png';
+import node from '../images/nodejs.png';
 
 
 export default class Skills extends Component {
@@ -49,6 +50,8 @@ export default class Skills extends Component {
               <ul>
                 <li id="bilde">< img src={python}className="responsive-img"/></li>
                 <li id="bilde_sql">< img src={sql}className="responsive-img"/></li>
+                <li id="bilde_sql">< img src={node}className="responsive-img"/></li>
+                <li id="bilde_sql">< img src={firebase}className="responsive-img"/></li>
               </ul>
             </div>
           </div>
@@ -59,7 +62,7 @@ export default class Skills extends Component {
               <hr />
               <ul>
                 <li id="bilde_asana">< img src={asana}className="responsive-img"/></li>
-                <li id="bilde_asana">< img src={scrum}className="responsive-img"/></li>
+                <li id="bilde_scrum">< img src={scrum}className="responsive-img"/></li>
                 <li id="bilde">< img src={git}className="responsive-img"/></li>
                 <li id="bilde">< img src={github}className="responsive-img"/></li>
 

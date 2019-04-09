@@ -1,23 +1,19 @@
 import React, { Component } from 'react';
-import M from 'materialize-css';
-import pbilde from '../images/P.Bilde.jpg';
-import "./About.css"
-import laJohnLogo from '../images/LaJohnLogo.png';
 import ReactDom from 'react';
-
+import M from 'materialize-css';
+import "./About.css"
+import pbilde from '../images/P.Bilde.jpg';
+import laJohnLogo from '../images/LaJohnLogo.png';
 
 export default class Projetcs extends Component {
   componentDidUpdate = () => { ReactDom.findDOMNode(this).scrollIntoView(); }
-
-
   render() {
     return (
-
-    /* lager en rad av 3 er 4/12 store */
     <div className="About"
     id="About"
     ref={this.myRef}
     >
+    {/* utforsker alternative metoder for å implementere sticky nav */}
     {/*<nav>
       <div className="nav-wrapper">
         <img id="logo"
@@ -49,8 +45,8 @@ export default class Projetcs extends Component {
           </p>
           <br />
         </div>
-     </div>
-</div>
+      </div>
+    </div>
 
 
 
