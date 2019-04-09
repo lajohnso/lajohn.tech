@@ -1,3 +1,6 @@
+a:active {
+  text-decoration: underline;
+}
 .tech_used {
   float:none;
   list-style-type: circle !important;
@@ -35,35 +38,28 @@
   text-align: center;
   width: 80%;
 }
-
 #abouttxt{
   padding-bottom: 2vh;
   display: inline-block;
   margin-top: 4vh;
   display: inline-block;
 }
-
 #projects{
   background-color: white !important;
 }
-
 #p_title{
-
   font-size: 3vh;
 }
-
 #ProjectImg{
   width: 37vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 2vh;
   margin-top: 2vh;
 }
-
 #aboutProject{
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-
 #upwards{
   background:white;
   padding-bottom: 15vh;
@@ -73,36 +69,27 @@
   margin-top: 3vh;
   height:5vh;
 }
-
 #visability{
    vertical-align: top;
    text-align: center;
 }
-
 #strip{
   margin:0;
   padding:0;
 }
-
-
 #black{
   color: black !important;
   margin-bottom:10vh;
 }
-
-
-
 #up {
   bottom:10vh;
   float: right;
   color:black;
   /*position:fixed;*/
 }
-
 #titles{
     font-size: calc(10px + 2vmin);
     font-family: 'Lato', sans-serif;
-
     color: inherit;
 }
 #titles2{
@@ -114,33 +101,17 @@
     color: black;
 
 }
-
-
-/*    <ul className ="tech_used">Technologies used:
-      <li>-DC.js</li>
-      <li>-D3.js</li>
-      <li>-Crossfilter.js</li>
-      <li>-Python</li>
-      <li>-OpenLayers 4</li>
-    </ul>*/
-
-    #link{
-      margin-left: 1vh;
-      margin-right: 1vh;
-    }
-    #link a:link {
-      text-decoration: none;
-      color: red!important;
-    }
-
-    #link a:visited {
-      text-decoration: none;
-    }
-
-    #link a:hover {
-      text-decoration: underline;
-    }
-
-    a:active {
-      text-decoration: underline;
-    }
+#link{
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+#link a:link {
+  text-decoration: none;
+  color: red!important;
+}
+#link a:visited {
+  text-decoration: none;
+}
+#link a:hover {
+  text-decoration: underline;
+}

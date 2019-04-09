@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import M from 'materialize-css';
-import laJohnLogo from '../images/LaJohnLogo.png';
 import "./navigation.css"
+import laJohnLogo from '../images/LaJohnLogo.png';
 
 export default class Projetcs extends Component {
   render() {
@@ -22,6 +22,8 @@ export default class Projetcs extends Component {
      )
   }
 }
+
+{/*utforsker potensielle menyfunskjoner*/}
 {/*
   constructor(props) {
           super(props);

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import M from 'materialize-css';
 import './Projects.css';
 
-
 import fiskinfo from '../images/FiskInfo.gif';
 import heatmap from '../images/heatmap.png';
 import todo from '../images/todo.png';
@@ -28,11 +27,9 @@ export default class Projetcs extends Component {
               <img id="ProjectImg"
                 src={heatmap}
                 className="project_img"
-              />
-              <br />
-              <i id="visability" class="material-icons">visibility_off</i> Source code protected by NDA
-
-
+                />
+                <br />
+                <i id="visability" class="material-icons">visibility_off</i> Source code protected by NDA
             </div>
             <div className="col s8 m8 l4 offset-s2 offset-m2">
               <div className="textContainer">
@@ -49,20 +46,20 @@ export default class Projetcs extends Component {
               <img id="ProjectImg"
                 src={portfolio}
                 className="project_img"
-              />
-              <br />
-              <i id="visability" class="material-icons">visibility</i> Source code available
-              <br />
-              <a target="_blank"
+                />
+                <br />
+                <i id="visability" class="material-icons">visibility</i> Source code available
+                <br />
+                <a target="_blank"
                 href="https://github.com/lajohnso/lajohn.tech"
-                className= "floating pulse">
+                className= "floating pulse"
+                >
                 <img id="tiny"
-                  src={github}
-                  className=""
-                  >
-                </img>
+                src={github}
+                className=""
+                >
+              </img>
               </a>
-
             </div>
             <div className="col s8 m8 l4 offset-s2 offset-m2">
               <div>
@@ -83,7 +80,6 @@ export default class Projetcs extends Component {
               <br />
               <i id="visability" class="material-icons">visibility_off</i> Source code private
             </div>
-
             <div class="col s8 m8 l4 offset-s2 offset-m2">
               <div>
                 <p id="abouttxt">
@@ -118,13 +114,12 @@ export default class Projetcs extends Component {
                 <p id="abouttxt">
                   The project "Weather application" was all about learning how to communicate with an external API. In this case, I collected the data from
                    <a id="link"
-                  href="https://wwww.openweathermap.org"
-                   target="_blank">
-                  openweathermap.org
+                    href="https://wwww.openweathermap.org"
+                    target="_blank">
+                    openweathermap.org
                   </a>
                   by using a personal API key. In my project I converted the data to json objects. Inspiration from github user hamza-mirza. Keywords for this project are ReactJS, API-calls, json.
                 </p>
-
               </div>
             </div>
           </div>

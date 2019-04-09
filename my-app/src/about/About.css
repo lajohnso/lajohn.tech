@@ -1,20 +1,15 @@
 .About{
 margin-bottom: 20vh;
 }
-
 #abouttxt{
-  float: left !important;
   text-align: left;
   padding-bottom: 2vh;
 }
-
 #about{
   margin-top:4vh;
   padding: 0;
   background: white;
-
 }
-
 #pbilde{
   max-width: 25vw;
   max-height: 25vh;
