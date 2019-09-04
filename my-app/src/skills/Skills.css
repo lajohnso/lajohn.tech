@@ -1,12 +1,10 @@
 .card-panel ul li{
   display: inline-block;
 }
-
 .container{
   align-items: center;
   justify-content: center;
   text-align: center;
-
 }
 .boxTitle{
   margin-bottom: 0;
@@ -14,13 +12,10 @@
   display: inline;
   float: left;
 }
-
 #skills{
   background: #5A5858;
   padding-bottom: 20vh;
 }
-
-
 #bilde{
   height: 8vh;
   width: 8vh;
@@ -53,11 +48,9 @@
   padding-bottom: 5vh;
   color: white;
 }
-
 #logoID{
   margin-top: 1vh;
 }
-
 #db{
   float: left;
   max-width: 5vh;
