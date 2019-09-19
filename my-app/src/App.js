@@ -11,6 +11,16 @@ import laJohnLogo from "./images/logo3.png";
 import "./App.css";
 
 class App extends Component {
+  componentDidMount() {
+    document.getElementById("appHeader").scrollIntoView();
+  }
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef(); // Create a ref object
+  }
+
+  scrollToMyRef = () => window.scrollTo(0, this.myRef.current.offsetTop);
+
   render() {
     return (
       <div className="App" id="App">
