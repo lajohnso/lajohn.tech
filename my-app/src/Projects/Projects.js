@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import M from "materialize-css";
 import "./Projects.css";
 
-import fiskinfo from "../images/FiskInfo.gif";
 import heatmap from "../images/heatmap.png";
-import todo from "../images/todo.png";
 import github from "../images/github.svg";
 import posicom from "../images/posicom.png";
 import portfolio from "../images/portfolio2.png";
@@ -19,12 +16,17 @@ export default class Projetcs extends Component {
           <br />
           <h3 id="titles">Previous projects</h3>
           <div className="col s12 "></div>
-          <div id="aboutProject" class="row">
-            <div class="col s12 m12 l6 offset-l1">
+          <div id="aboutProject" className="row">
+            <div className="col s12 m12 l6 offset-l1">
               <p id="p_title"> Digitalt brannkonsept - Rambøll</p>
-              <img id="ProjectImg" src={Brannkonsept} className="project_img" />
+              <img
+                id="ProjectImg"
+                src={Brannkonsept}
+                alt="Digitalt brannkonsept"
+                className="project_img"
+              />
               <br />
-              <i id="visability" class="material-icons">
+              <i id="visability" className="material-icons">
                 visibility_off
               </i>
               Source code private
@@ -46,11 +48,16 @@ export default class Projetcs extends Component {
           </div>
           <hr className="pageSep" />
           <div id="aboutProject" className="row">
-            <div class="col s12 m12 l6 offset-l1">
+            <div className="col s12 m12 l6 offset-l1">
               <p id="p_title">FiskInfo - SINTEF Digital</p>
-              <img id="ProjectImg" src={heatmap} className="project_img" />
+              <img
+                id="ProjectImg"
+                src={heatmap}
+                alt="FiskInfo"
+                className="project_img"
+              />
               <br />
-              <i id="visability" class="material-icons">
+              <i id="visability" className="material-icons">
                 visibility_off
               </i>
               Source code protected by NDA
@@ -72,22 +79,27 @@ export default class Projetcs extends Component {
             </div>
           </div>
           <hr className="pageSep" />
-          <div id="aboutProject" class="row">
-            <div class="col s12 m12 l6 offset-l1">
+          <div id="aboutProject" className="row">
+            <div className="col s12 m12 l6 offset-l1">
               <p id="p_title"> My Portfilio (This page)</p>
-              <img id="ProjectImg" src={portfolio} className="project_img" />
+              <img
+                id="ProjectImg"
+                src={portfolio}
+                alt="Portfolio"
+                className="project_img"
+              />
               <br />
-              <i id="visability" class="material-icons">
+              <i id="visability" className="material-icons">
                 visibility
               </i>
               Source code available
               <br />
               <a
-                target="_blank"
+                target="blank"
                 href="https://github.com/lajohnso/lajohn.tech"
                 className="floating pulse"
               >
-                <img id="tiny" src={github} className=""></img>
+                <img id="tiny" src={github} alt="github" className=""></img>
               </a>
             </div>
             <div className="col s8 m8 l4 offset-s2 offset-m2">
@@ -104,17 +116,22 @@ export default class Projetcs extends Component {
             </div>
           </div>
           <hr className="pageSep" />
-          <div id="aboutProject" class="row">
-            <div class="col s12 m6 l6 offset-l1 offset-m3">
+          <div id="aboutProject" className="row">
+            <div className="col s12 m6 l6 offset-l1 offset-m3">
               <p id="p_title">Posicom.no</p>
-              <img id="ProjectImg" src={posicom} className="project_img" />
+              <img
+                id="ProjectImg"
+                src={posicom}
+                alt="Posicom"
+                className="project_img"
+              />
               <br />
-              <i id="visability" class="material-icons">
+              <i id="visability" className="material-icons">
                 visibility_off
               </i>
               Source code private
             </div>
-            <div class="col s8 m8 l4 offset-s2 offset-m2">
+            <div className="col s8 m8 l4 offset-s2 offset-m2">
               <div>
                 <p id="abouttxt">
                   Created a website for Posicom AS. In 2017 I had just finished
@@ -129,25 +146,30 @@ export default class Projetcs extends Component {
             </div>
           </div>
           <hr className="pageSep" />
-          <div id="aboutProject" class="row">
-            <div class="col s12 m6 l6 offset-l1 offset-m3">
+          <div id="aboutProject" className="row">
+            <div className="col s12 m6 l6 offset-l1 offset-m3">
               <p id="p_title">Weather application - Private Project</p>
-              <img id="ProjectImg" src={weather} className="project_img" />
+              <img
+                id="ProjectImg"
+                src={weather}
+                alt="weather application"
+                className="project_img"
+              />
               <br />
-              <i id="visability" class="material-icons">
+              <i id="visability" className="material-icons">
                 visibility
               </i>
               Source code available
               <br />
               <a
-                target="_blank"
+                target="blank"
                 href="https://github.com/lajohnso/lajohn.tech"
                 className="floating pulse"
               >
-                <img id="tiny" src={github} className=""></img>
+                <img id="tiny" src={github} alt="github" className=""></img>
               </a>
             </div>
-            <div class="col s8 m8 l4 offset-s2 offset-m2">
+            <div className="col s8 m8 l4 offset-s2 offset-m2">
               <div className="adjust">
                 <p id="abouttxt">
                   The project "Weather application" was all about learning how
@@ -156,7 +178,7 @@ export default class Projetcs extends Component {
                   <a
                     id="link"
                     href="https://wwww.openweathermap.org"
-                    target="_blank"
+                    target="blank"
                   >
                     openweathermap.org
                   </a>
